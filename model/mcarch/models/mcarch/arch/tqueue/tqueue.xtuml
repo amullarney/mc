@@ -137,57 +137,6 @@ return timers_expired;',
 	'',
 	"d9369c8a-3301-45c6-b47f-9d3ea15bad72",
 	0);
-INSERT INTO O_REF
-	VALUES ("34d92052-54a5-415f-a27c-63392bbdfea6",
-	"854e1ea1-e8dc-48d7-8fd8-b738b49472c5",
-	0,
-	"a4450c3d-1c48-4732-bb7c-7e03826b22c8",
-	"b89dea70-ba31-411d-afcf-304ef01620ea",
-	"5c607a01-7298-48fe-bd84-c508d9a501e2",
-	"8e19a8cc-9f60-42c8-9746-8ec7745f2efa",
-	"871e834d-b93c-40c1-ae92-0ff9b96ff13d",
-	"df513e32-da19-4941-bc4d-e44cb75a37fc",
-	"00000000-0000-0000-0000-000000000000",
-	0,
-	'',
-	'atimer',
-	'ID',
-	'R7010.''has first ticking''');
-INSERT INTO R_RGO_PROXY
-	VALUES ("34d92052-54a5-415f-a27c-63392bbdfea6",
-	"b89dea70-ba31-411d-afcf-304ef01620ea",
-	"5c607a01-7298-48fe-bd84-c508d9a501e2",
-	'../arch.xtuml');
-INSERT INTO O_RTIDA_PROXY
-	VALUES ("a4450c3d-1c48-4732-bb7c-7e03826b22c8",
-	"854e1ea1-e8dc-48d7-8fd8-b738b49472c5",
-	0,
-	"b89dea70-ba31-411d-afcf-304ef01620ea",
-	"8e19a8cc-9f60-42c8-9746-8ec7745f2efa",
-	'../arch.xtuml');
-INSERT INTO O_RATTR
-	VALUES ("871e834d-b93c-40c1-ae92-0ff9b96ff13d",
-	"34d92052-54a5-415f-a27c-63392bbdfea6",
-	"a4450c3d-1c48-4732-bb7c-7e03826b22c8",
-	"854e1ea1-e8dc-48d7-8fd8-b738b49472c5",
-	1,
-	'ID');
-INSERT INTO O_BATTR_PROXY
-	VALUES ("a4450c3d-1c48-4732-bb7c-7e03826b22c8",
-	"854e1ea1-e8dc-48d7-8fd8-b738b49472c5",
-	'../atimer/atimer.xtuml');
-INSERT INTO O_ATTR
-	VALUES ("871e834d-b93c-40c1-ae92-0ff9b96ff13d",
-	"34d92052-54a5-415f-a27c-63392bbdfea6",
-	"27136fcb-e6c7-44dd-a922-3935ceb1645e",
-	'headID',
-	'',
-	'head',
-	'ID',
-	1,
-	"ba5eda7a-def5-0000-0000-000000000002",
-	'',
-	'');
 INSERT INTO O_NBATTR
 	VALUES ("27136fcb-e6c7-44dd-a922-3935ceb1645e",
 	"34d92052-54a5-415f-a27c-63392bbdfea6");

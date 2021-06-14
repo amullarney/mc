@@ -137,57 +137,6 @@ INSERT INTO O_ATTR
 	"ba5eda7a-def5-0000-0000-000000000002",
 	'',
 	'');
-INSERT INTO O_REF
-	VALUES ("854e1ea1-e8dc-48d7-8fd8-b738b49472c5",
-	"ec0aa707-58b0-4a8c-811c-d32895129bc2",
-	0,
-	"1f546eb9-2157-4161-8de1-ecedda8b9a2e",
-	"19994783-1e3f-4079-b8a1-0b2f77929897",
-	"100b3577-71ae-4095-85d8-c370a44e2396",
-	"6533a367-2b83-469a-b3cd-42e3426acd0c",
-	"5b88c3e6-e1ed-460f-bc4e-ec76f124fa01",
-	"8715e13b-ce89-4e84-a93f-25a1c1ebb1cc",
-	"00000000-0000-0000-0000-000000000000",
-	0,
-	'',
-	'aevent',
-	'ID',
-	'R7013.''delays''');
-INSERT INTO R_RGO_PROXY
-	VALUES ("854e1ea1-e8dc-48d7-8fd8-b738b49472c5",
-	"19994783-1e3f-4079-b8a1-0b2f77929897",
-	"100b3577-71ae-4095-85d8-c370a44e2396",
-	'../arch.xtuml');
-INSERT INTO O_RTIDA_PROXY
-	VALUES ("1f546eb9-2157-4161-8de1-ecedda8b9a2e",
-	"ec0aa707-58b0-4a8c-811c-d32895129bc2",
-	0,
-	"19994783-1e3f-4079-b8a1-0b2f77929897",
-	"6533a367-2b83-469a-b3cd-42e3426acd0c",
-	'../arch.xtuml');
-INSERT INTO O_RATTR
-	VALUES ("5b88c3e6-e1ed-460f-bc4e-ec76f124fa01",
-	"854e1ea1-e8dc-48d7-8fd8-b738b49472c5",
-	"1f546eb9-2157-4161-8de1-ecedda8b9a2e",
-	"ec0aa707-58b0-4a8c-811c-d32895129bc2",
-	1,
-	'ID');
-INSERT INTO O_BATTR_PROXY
-	VALUES ("1f546eb9-2157-4161-8de1-ecedda8b9a2e",
-	"ec0aa707-58b0-4a8c-811c-d32895129bc2",
-	'../aevent/aevent.xtuml');
-INSERT INTO O_ATTR
-	VALUES ("5b88c3e6-e1ed-460f-bc4e-ec76f124fa01",
-	"854e1ea1-e8dc-48d7-8fd8-b738b49472c5",
-	"b85b18f1-cce0-49c9-9b21-357d95188dae",
-	'aeventID',
-	'',
-	'aevent',
-	'ID',
-	1,
-	"ba5eda7a-def5-0000-0000-000000000002",
-	'',
-	'');
 INSERT INTO O_ID
 	VALUES (0,
 	"854e1ea1-e8dc-48d7-8fd8-b738b49472c5");

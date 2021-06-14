@@ -116,45 +116,12 @@ INSERT INTO S_DT_PROXY
 	'',
 	'',
 	'../../atypes/atypes.xtuml');
-INSERT INTO O_REF
-	VALUES ("60d50a6f-eacc-4d88-9a3b-beb6c1e27086",
-	"7a834212-22ea-43a8-96a1-dd6d7789967d",
-	0,
-	"ec06b5dc-f83e-4c26-9357-ba9dfdc866bf",
-	"e5e370c6-90e9-49e1-9e31-3d9ca0a84a66",
-	"ec4d8252-b07d-47f6-8021-c9112b82dd1b",
-	"60831061-b40f-4da7-8140-728c8f97afb8",
-	"5b6e3a68-81f7-4be4-966d-20606c17c779",
-	"1934415b-e91f-49bc-9bc6-08dd48fb8ac0",
-	"00000000-0000-0000-0000-000000000000",
-	0,
-	'',
-	'thread of control',
-	'ToCI',
-	'R7104');
-INSERT INTO R_RGO_PROXY
-	VALUES ("60d50a6f-eacc-4d88-9a3b-beb6c1e27086",
-	"e5e370c6-90e9-49e1-9e31-3d9ca0a84a66",
-	"ec4d8252-b07d-47f6-8021-c9112b82dd1b",
-	'../../energy/energy.xtuml');
-INSERT INTO O_RTIDA_PROXY
-	VALUES ("ec06b5dc-f83e-4c26-9357-ba9dfdc866bf",
-	"7a834212-22ea-43a8-96a1-dd6d7789967d",
-	0,
-	"e5e370c6-90e9-49e1-9e31-3d9ca0a84a66",
-	"60831061-b40f-4da7-8140-728c8f97afb8",
-	'../../energy/energy.xtuml');
-INSERT INTO O_RATTR
+INSERT INTO O_NBATTR
 	VALUES ("5b6e3a68-81f7-4be4-966d-20606c17c779",
-	"60d50a6f-eacc-4d88-9a3b-beb6c1e27086",
-	"ec06b5dc-f83e-4c26-9357-ba9dfdc866bf",
-	"7a834212-22ea-43a8-96a1-dd6d7789967d",
-	1,
-	'ToCI');
-INSERT INTO O_BATTR_PROXY
-	VALUES ("ec06b5dc-f83e-4c26-9357-ba9dfdc866bf",
-	"7a834212-22ea-43a8-96a1-dd6d7789967d",
-	'../../energy/thread of control/thread of control.xtuml');
+	"60d50a6f-eacc-4d88-9a3b-beb6c1e27086");
+INSERT INTO O_BATTR
+	VALUES ("5b6e3a68-81f7-4be4-966d-20606c17c779",
+	"60d50a6f-eacc-4d88-9a3b-beb6c1e27086");
 INSERT INTO O_ATTR
 	VALUES ("5b6e3a68-81f7-4be4-966d-20606c17c779",
 	"60d50a6f-eacc-4d88-9a3b-beb6c1e27086",
